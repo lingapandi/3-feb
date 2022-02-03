@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sample</title>
+  <style>
+  p{
+  color:blue;
+}
+.ss{
+    color:orange;
+  }
+  </style>
+</head>
+<body>
+  <h1> MYRMC </h1>
+  <p> Welcome to all ,have a good day </p>
+  <div class="ss"> In this HTML tutorial, you will find more than 200 examples. With our online "Try it Yourself" editor, you can edit and test each example yourself!</div>
+  <script>
+   document.write( "</br>");
+    var s="pls visit this site";
+    document.write(s);
+    document.write("</br></br>Example :");
+    function aa(){
+   var a=window.prompt("Enter the value ");
+var b;
+for(i=1;i<=a;i++){
+  b=i*a;
+  document.write(i,"*",a,"=",b+"<br>");
+}
+
+    }
+    aa();
+  </script>
+</body>
+</html>

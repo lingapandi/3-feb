@@ -1,0 +1,26 @@
+program : 1
+           
+              function add(a,b){
+  console.log("Addtion",a+b);
+}
+add(4,2);
+
+function sub(c,d){
+  console.log("subtraction",c-d);
+} 
+sub(10,5);
+
+function mul(e,f){
+  console.log("multiple",e*f);
+} 
+mul(10,5);
+
+function div(g,h){
+  console.log("division",g/h);
+}
+div(100,5)
+
+function mod(a,b){
+  console.log("Mod",a%b);
+}
+mod(100,3)

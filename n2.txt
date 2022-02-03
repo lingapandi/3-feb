@@ -1,0 +1,10 @@
+var n=5;
+if(n>0){
+  console.log("Postive");
+}
+else if(n==0){
+  console.log("Zero");
+}
+else{
+  console.log("negetive");
+}

@@ -1,0 +1,6 @@
+var a=window.prompt("Enter the value ");
+var b;
+for(i=1;i<=a;i++){
+  b=i*a;
+  document.write(i,"*",a,"=",b+"<br>");
+}
